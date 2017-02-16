@@ -7,7 +7,8 @@ public class Instructor extends Person {
 
     public Instructor(String name, String emailAddress, String title, Course favCourse){
         super(name,emailAddress);
-        this.title=title;
+        this.title = title;
+        this.favCourse = favCourse;
     }
 
     public String toString(){
