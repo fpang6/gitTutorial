@@ -18,4 +18,5 @@ public class Student extends Person {
 
     public void addCourse(Course c) {
         courseList.add(c);
-    }}
+    }
+}
